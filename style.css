@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="date"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p#result {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  
+    input[type="date"] {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+  
+    p#result {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+  
